@@ -6,13 +6,14 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="./css/typewriter.css">
 
 	<title>Akash Pushkar</title>
 </head>
 
 <body>
 
-	<div class="container-fluid">
+	<div class="container">
 
 		<div class="jumbotron">
 			<h1 class="heading-name">Akash Pushkar</h1>
@@ -51,22 +52,31 @@
 		
 		
 
-		<div class="row mt-3">
-			<div class="col-2"></div>
-			<div class="col-3">
-				<img src="./img/profile.jpg" class="img-fluid" style="border-radius: 50%;">
+		<div class="row mt-3 justify-content-center align-items-center">
+			<!-- <div class="col-2"></div> -->
+		<div class="col-lg-3">
+				<img src="./img/profile.jpg" class="img-fluid">
 			</div>
 
-			<div class="col-1"></div>
 
-			<div class="col-5 intro">
-				<h1>Hello,</h1>
-				<h3>I am Akash Pushkar</h3>
+			<div class="col-lg-7 intro">
+				
+				<!-- <h1> I do</h1> -->
+				<div id="typewriter"> <b class="typewriter-text m-2" style="color: black;">I am Akash, </b>
+					<div id="text" class="typewriter-text"></div><div id="cursor"></div>
+				</div>				
 			</div>
 
-			<div class="col-1"></div>
 		</div>
 		
+
+		<div class="row mt-3">
+			<div class="col">
+				<p>
+					I am Akash Pushkar. I am work at the Robotics Department, Carnegie Mellon University. 
+				</p>
+			</div>
+		</div>
 
 		<div class="row mt-3">
 			<div class="col-12">
@@ -81,6 +91,8 @@
 				</footer>
 			</div>
 		</div>
+
+		
 		
 
 
@@ -99,5 +111,10 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+	<!-- External files -->
+	<script type="text/javascript" src="../js/typewriter.js"></script>
 </body>
 </html>
