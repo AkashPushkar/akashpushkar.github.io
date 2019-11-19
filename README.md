@@ -1,6 +1,6 @@
 ## Akash Pushkar - Personal Website
 
-The live website is available at [akashpushkar.github.io]
+The live website is available at [akashpushkar.github.io](akashpushkar.github.io)
 
 ### Installation
 
