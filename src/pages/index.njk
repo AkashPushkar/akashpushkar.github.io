@@ -1,0 +1,44 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+	<div class="container-fluid">
+
+		{% include "header.njk" %}		
+
+		<div class="row mt-3 justify-content-center align-items-center">
+			<!-- <div class="col-2"></div> -->
+			<div class="col-lg-3">
+				<img src="../img/profile.jpg" class="img-fluid">
+			</div>
+
+
+			<div class="col-lg-7 intro">
+				
+				<div id="typewriter"> 
+					<b class="typewriter-text m-2" style="color: black;">I am Akash, </b>
+					<div id="text" class="typewriter-text"></div><div id="cursor"></div>
+				</div>				
+			</div>
+
+		</div>
+		
+
+		<div class="row mt-3">
+			<div class="col">
+				<p>
+					I am work at the Robotics Department, Carnegie Mellon University. 
+				</p>
+			</div>
+		</div>
+
+
+		{% include "footer.njk" %}
+
+
+	</div>
+
+
+	<!-- typrewriter js -->
+	 <script type="text/javascript" src="../js/typewriter.js"></script>
+
+{% endblock %}

@@ -1,5 +1,5 @@
 .jumbotron{
-	background-image: url(../img/buildingComputer.jpg);
+	background-image: url(../img/header.jpg);
 	background-size: auto 100%;
 	margin-bottom: 0px;
 }
@@ -10,6 +10,7 @@
 	background-clip: padding-box;*/
 	padding: 2em;
 	text-align: center;
+	vertical-align: middle;
 }
 
 .heading-name{
@@ -20,5 +21,16 @@
 }
 
 .project-img{
+	max-height: 175px;
 
+}
+
+.csl-entry{
+	margin-top: 1em;
+}
+
+.fa-circle{
+	margin-right:1em;
+	font-size: 0.5em;
+	color: black;
 }

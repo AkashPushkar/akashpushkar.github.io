@@ -1,0 +1,32 @@
+{
+	"projects": [{
+		"src":"../../data/img/1.png",
+		"title":"Automated progress monitoring of masonry activity using photogrammetric point cloud",
+		"publication":"35th International Symposium on Automation and Robotics in Construction (ISARC 2018)",
+		"authors":[{"name":"Akash Pushkar"},
+				{"name":"Madhumitha Senthilvel"},
+				{"name":"Koshy Varghese","link":"http://www.civil.iitm.ac.in/new/?q=koshy_rp"}			
+
+		],
+		"projectPage":"#",
+		"paper":"https://doi.org/10.22260/ISARC2018/0125",
+		"report":"",
+		"presentation":"https://drive.google.com/file/d/1rZLgFCLm8QuSJAeksJfZoA-G_uTz68IO/view?usp=sharing",
+		"video":"",
+		"code":""
+		
+	}, {
+		"src":"../../data/img/2.png",
+		"title":"VBUILT: Volume-based Automatic Building Extraction for As-Built Point Clouds",
+		"publication":"36th International Symposium on Automation and Robotics in Construction (ISARC 2019)",
+		"authors":[{"name":"Mustafa Khalid Masood"},
+				{"name":"Akash Pushkar"},
+				{"name":"Olli Seppänen","link":"https://www.aalto.fi/en/people/olli-seppanen"},
+				{"name":"Vishal Singh","link":"https://www.aalto.fi/en/people/vishal-singh"},
+				{"name":"Antti Aikala"}
+
+		],
+		"projectPage":"",
+		"paper":"http://www.iaarc.org/publications/fulltext/ISARC_2019_Paper_235.pdf"
+	}]
+}

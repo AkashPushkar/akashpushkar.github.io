@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Akash Pushkar - Personal Website
 
-You can use the [editor on GitHub](https://github.com/AkashPushkar/akashpushkar.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The live website is available at [akashpushkar.github.io]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Installation
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This build process of this webite requires: [nunjucks](https://mozilla.github.io/nunjucks/) (used for HTML templating), [citation-js](https://citation.js.org/) (for automating conversion of .bib file to html)
 
 ```markdown
-Syntax highlighted code block
+Building the project requires two steps:
+1. creating the _src/templates/partials/conferences.njk_ from the _citations/conferences.bib_ file using the command: `node citations/createCiteHTML.js`. (Note: This command should be run from the root location)
 
-# Header 1
-## Header 2
-### Header 3
+2. running the gulp task created in _gulpfile.js_ using command `gulp nunjucks`
 
-- Bulleted
-- List
+Alternative, we can combine the steps and run `node citations/createCiteHTML.js && gulp nunjucks`
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AkashPushkar/akashpushkar.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

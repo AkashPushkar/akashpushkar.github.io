@@ -1,0 +1,27 @@
+{
+  "name": "akashpushkar.github.io",
+  "version": "1.0.0",
+  "description": "Website as app",
+  "main": "index.js",
+  "dependencies": {
+    "citation-js": "^0.5.0-alpha.4",
+    "gulp-nunjucks-render": "^2.2.3"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-data": "^1.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkashPushkar/akashpushkar.github.io.git"
+  },
+  "author": "Akash Pushkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkashPushkar/akashpushkar.github.io/issues"
+  },
+  "homepage": "https://github.com/AkashPushkar/akashpushkar.github.io#readme"
+}
