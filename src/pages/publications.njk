@@ -1,18 +1,24 @@
 {% extends "layout.njk" %}
 
 {% block content %}
+	
+	<div class="container-fluid">
 
-	{% include "header.njk" %}
+		{% include "header.njk" %}
 
-	<div class="container mt-5">
-		<h4>Conference Publication</h4>
-		<hr>
+		<div class="container mt-5">
+			<h4>Conference Publication</h4>
+			<hr>
 
-		{% include "conferences.njk" %}
+			{% include "conferences.njk" %}
+		</div>
+
+
+
+		{% include "footer.njk" %}
+		
 	</div>
 
 
-
-	{% include "footer.njk" %}
 
 {% endblock %}
