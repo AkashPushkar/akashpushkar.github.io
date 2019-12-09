@@ -41,11 +41,10 @@
 				{"name":"Olli Seppänen","link":"https://www.aalto.fi/en/people/olli-seppanen"},
 				{"name":"Vishal Singh","link":"https://www.aalto.fi/en/people/vishal-singh"},
 				{"name":"Antti Aikala"}
-
 		],
 		"projectPage":"",
 		"paper":"http://www.iaarc.org/publications/fulltext/ISARC_2019_Paper_235.pdf",
-		"filter":"webDevelopment"
+		"filter":"research"
 	}, {
 		"src":"../../data/img/deconstructionWasteManagement.png",
 		"title":"Supporting Deconstruction Waste Management through 3D Imaging: A Case Study",
@@ -56,6 +55,19 @@
 		],
 		"projectPage":"",
 		"paper":"https://pdfs.semanticscholar.org/97bb/5a108dcd8d40548e87b2bbafea398380bb0f.pdf",
-		"filter":"webDevelopment"
+		"filter":"research"
+	}, {
+		"src":"../../data/img/storyboarding.png",
+		"title":"Storyboarding: Data driven feedback based sketching",
+		"publication":"",
+		"authors":[{"name":"Akash Pushkar"}
+		],
+		"projectPage":"http://trinity.vision.cs.cmu.edu:23015/",
+		"paper":"",
+		"report":"",
+		"presentation":"",
+		"video":"https://www.youtube.com/watch?v=dOUDKQjRguo&list=PLaAdNBxA08fpGp311fm_xk15P41TKPgFM&index=1",
+		"code":"",
+		"filter":"webDevelopment"	
 	}]
 }
