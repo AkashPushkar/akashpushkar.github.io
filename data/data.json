@@ -12,7 +12,8 @@
 		"report":"https://drive.google.com/file/d/1v_dj5XvgEwTIHC78neZBmISvrtf55NxB/view?usp=sharing",
 		"presentation":"https://drive.google.com/file/d/1aO6F6aLFOjH_8XuWcq5s78xrkrhBvU3f/view?usp=sharing",
 		"video":"",
-		"code":""
+		"code":"",
+		"filter":"research"
 		
 	}, {
 		"src":"../../data/img/1.png",
@@ -23,12 +24,13 @@
 				{"name":"Koshy Varghese","link":"http://www.civil.iitm.ac.in/new/?q=koshy_rp"}			
 
 		],
-		"projectPage":"#",
+		"projectPage":"",
 		"paper":"https://doi.org/10.22260/ISARC2018/0125",
 		"report":"",
 		"presentation":"https://drive.google.com/file/d/1rZLgFCLm8QuSJAeksJfZoA-G_uTz68IO/view?usp=sharing",
 		"video":"",
-		"code":""
+		"code":"",
+		"filter":"research"
 		
 	}, {
 		"src":"../../data/img/2.png",
@@ -42,7 +44,8 @@
 
 		],
 		"projectPage":"",
-		"paper":"http://www.iaarc.org/publications/fulltext/ISARC_2019_Paper_235.pdf"
+		"paper":"http://www.iaarc.org/publications/fulltext/ISARC_2019_Paper_235.pdf",
+		"filter":"webDevelopment"
 	}, {
 		"src":"../../data/img/deconstructionWasteManagement.png",
 		"title":"Supporting Deconstruction Waste Management through 3D Imaging: A Case Study",
@@ -52,6 +55,7 @@
 				{"name":"Burcu Akinci","link":"https://www.cmu.edu/cee/people/faculty/akinci.html"}
 		],
 		"projectPage":"",
-		"paper":"https://pdfs.semanticscholar.org/97bb/5a108dcd8d40548e87b2bbafea398380bb0f.pdf"
+		"paper":"https://pdfs.semanticscholar.org/97bb/5a108dcd8d40548e87b2bbafea398380bb0f.pdf",
+		"filter":"webDevelopment"
 	}]
 }

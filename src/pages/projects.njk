@@ -1,5 +1,6 @@
 {% extends "layout.njk" %}
 
+
 {% block content %}
 	<div class="container-fluid">
 
@@ -9,9 +10,9 @@
 		<div class="row">
 			<div class="col">
 				<div class="btn-group">
-					<button type="button" class="btn btn-outline-primary m-2">All</button>
-					<button type="button" class="btn btn-outline-primary m-2">Research</button>
-					<button type="button" class="btn btn-outline-primary m-2">Web Development</button>
+					<button type="button" class="btn btn-outline-primary m-2 active" id="all">All</button>
+					<button type="button" class="btn btn-outline-primary m-2" id="research">Research</button>
+					<button type="button" class="btn btn-outline-primary m-2" id="webDevelopment">Web Development</button>
 				</div>	
 			</div>
 		</div>
@@ -19,72 +20,77 @@
 		
 
 		{% for project in projects %}
-			
-			<div class="media row p-4">
+			<div class="filterDiv {{project.filter}}">
+				
+				
+				<div class="media row p-4">
 
-				<img src="{{ project.src }}" class="mx-3 img-fluid col-3 project-img">
-				<div class="media-body col-8">
-					
-					<!-- Project Name -->
-					<h5 class="mt-0"> {{ project.title }} </h5>
-					
-					<!-- Authors -->
-					<h6>
-						{% for author in project.authors %}
-							{% if author.name == "Akash Pushkar"%}
-								<b>{{ author.name }},</b>
-							{% elif author.link %}
-								<a href="{{ author.link }}">{{ author.name }},</a>
-							{% else %}
-								<p style="display:inline">{{ author.name }},</p>
-							{% endif %}
-						{% endfor %}
-					</h6>
+					<img src="{{ project.src }}" class="mx-3 img-fluid col-3 project-img">
+					<div class="media-body col-8">
+						
+						<!-- Project Name -->
+						<h5 class="mt-0"> {{ project.title }} </h5>
+						
+						<!-- Authors -->
+						<h6>
+							{% for author in project.authors %}
+								{% if author.name == "Akash Pushkar"%}
+									<b>{{ author.name }},</b>
+								{% elif author.link %}
+									<a href="{{ author.link }}">{{ author.name }},</a>
+								{% else %}
+									<p style="display:inline">{{ author.name }},</p>
+								{% endif %}
+							{% endfor %}
+						</h6>
 
-					<!-- Journal/ Conference name(if applicable) -->
-					{% if project.publication%}
-						<p><i>{{project.publication}}</i></p>
-					{% endif %}
+						<!-- Journal/ Conference name(if applicable) -->
+						{% if project.publication%}
+							<p><i>{{project.publication}}</i></p>
+						{% endif %}
 
-					<!-- Project Page -->
-					{% if project.projectPage %}
-						<a href="{{ project.projectPage }}">project page</a> /
-					{% endif%}
-
-
-					<!-- Paper -->
-					{% if project.paper %}
-						<a href="{{ project.paper }}">paper</a> /
-					{% endif%}
-
-					<!-- Project Report -->
-					{% if project.report %}
-						<a href="{{ project.report }}">report</a> /
-					{% endif%}
-
-					<!-- Presentation -->
-					{% if project.presentation %}
-						<a href="{{ project.presentation }}">presentation</a> /
-					{% endif%}
-
-					<!-- Video -->
-					{% if project.video %}
-						<a href="{{ project.video }}">video</a> /
-					{% endif%}
+						<!-- Project Page -->
+						{% if project.projectPage %}
+							<a href="{{ project.projectPage }}">project page</a> /
+						{% endif%}
 
 
-					<!-- Code -->
-					{% if project.code %}
-						<a href="{{ project.code }}">code</a>
-					{% endif%}
-					
+						<!-- Paper -->
+						{% if project.paper %}
+							<a href="{{ project.paper }}">paper</a> /
+						{% endif%}
+
+						<!-- Project Report -->
+						{% if project.report %}
+							<a href="{{ project.report }}">report</a> /
+						{% endif%}
+
+						<!-- Presentation -->
+						{% if project.presentation %}
+							<a href="{{ project.presentation }}">presentation</a> /
+						{% endif%}
+
+						<!-- Video -->
+						{% if project.video %}
+							<a href="{{ project.video }}">video</a> /
+						{% endif%}
+
+
+						<!-- Code -->
+						{% if project.code %}
+							<a href="{{ project.code }}">code</a>
+						{% endif%}
+						
+					</div>
+
 				</div>
-
+				<hr>
 			</div>
-
-			<hr>
+			
 
 		{% endfor %}
+
+
 
 		{% include "footer.njk" %}
 

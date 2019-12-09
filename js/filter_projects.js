@@ -1,5 +1,4 @@
-filterSelection("all")
-function filterSelection(c) {
+function filterSelection(c){
   var x, i;
   x = document.getElementsByClassName("filterDiv");
   if (c == "all") c = "";
@@ -31,12 +30,29 @@ function w3RemoveClass(element, name) {
 }
 
 // Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
+// var btnContainer = document.getElementById("btn");
+var btns = document.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
     var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
+    current[0].className = current[0].className.replace("active", "");
     this.className += " active";
   });
 }
+
+
+
+document.getElementById("all").addEventListener('click', function(){
+    filterSelection('all');
+});
+
+document.getElementById("research").addEventListener('click', function(){
+    filterSelection('research')
+  });
+
+document.getElementById("webDevelopment").addEventListener('click', function(){
+    filterSelection('webDevelopment')
+});
+
+(function(){
+  filterSelection("all")})()
