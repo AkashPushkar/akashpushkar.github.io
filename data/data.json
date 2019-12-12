@@ -13,7 +13,7 @@
 		"presentation":"https://docs.google.com/presentation/d/e/2PACX-1vRkT1KgA9sA7_-aXCmQ-AFeMpnuBvD_FHk29MORurP-yXq_6wFfygYIbTha6S7scA/pub?start=true&loop=true&delayms=3000",
 		"video":"",
 		"code":"",
-		"filter":"research webDevelopment"
+		"filter":"research"
 		
 	}, {
 		"src":"../../data/img/1.png",
@@ -69,5 +69,20 @@
 		"video":"https://www.youtube.com/watch?v=dOUDKQjRguo&list=PLaAdNBxA08fpGp311fm_xk15P41TKPgFM&index=1",
 		"code":"",
 		"filter":"webDevelopment"	
+	}, {
+		"src":"../../data/img/deconstruction.JPG",
+		"title":"Evaluating the economic effectiveness of deconstruction activities for a facility: A Case Study",
+		"publication":"",
+		"authors":[{"name":"Akash Pushkar"},
+				{"name":"Yujie Wei"},
+				{"name":"Burcu Akinci","link":"https://www.cmu.edu/cee/people/faculty/akinci.html"}
+		],
+		"projectPage":"",
+		"paper":"",
+		"report":"https://drive.google.com/file/d/1OxJPwbSoIBsK5tdgja6zqRT56JcG5J_j/view?usp=sharing",
+		"presentation":"https://docs.google.com/presentation/d/e/2PACX-1vRQqLYpg77pGn1m9uDeBmIvuEofEhuDBgN3Tb2AAZtnr9P89hjiMwlUmzGmY98hEZ26P3j7vrs1-WuR/pub?start=true&loop=true&delayms=2000",
+		"video":"",
+		"code":"",
+		"filter":"research"
 	}]
 }
