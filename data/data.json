@@ -67,7 +67,7 @@
 		"report":"",
 		"presentation":"",
 		"video":"https://www.youtube.com/watch?v=dOUDKQjRguo&list=PLaAdNBxA08fpGp311fm_xk15P41TKPgFM&index=1",
-		"code":"",
+		"code":"https://github.com/AkashPushkar/assisted-storyboarding",
 		"filter":"webDevelopment"	
 	}, {
 		"src":"../../data/img/deconstruction.JPG",
@@ -84,5 +84,19 @@
 		"video":"",
 		"code":"",
 		"filter":"research"
+	},  {
+		"src":"../../data/img/audioSynthesis.jpg",
+		"title":"Audiocon: Audio Syntheis Webapp",
+		"publication":"",
+		"authors":[{"name":"Akash Pushkar"}
+				],
+		"projectPage":"",
+		"paper":"",
+		"report":"",
+		"presentation":"",
+		"video":"",
+		"code":"https://github.com/AkashPushkar/audio-synthesis-webapp",
+		"softwareProduct":"https://scs00197.sp.cs.cmu.edu/",
+		"filter":"webDevelopment"
 	}]
 }
