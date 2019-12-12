@@ -49,36 +49,42 @@
 							<p><i>{{project.publication}}</i></p>
 						{% endif %}
 
+						<!-- tags -->
+						{% if project.tags%}
+							<p><i>tags: {{project.tags}}</i></p>
+						{% endif %}
+
+
 						<!-- Project Page -->
 						{% if project.projectPage %}
-							<a href="{{ project.projectPage }}">project page</a> /
+							<a href="{{ project.projectPage }}">project page</a> |
 						{% endif%}
 
 
 						<!-- Paper -->
 						{% if project.paper %}
-							<a href="{{ project.paper }}">paper</a> /
+							<a href="{{ project.paper }}">paper</a> |
 						{% endif%}
 
 						<!-- Project Report -->
 						{% if project.report %}
-							<a href="{{ project.report }}">report</a> /
+							<a href="{{ project.report }}">report</a> |
 						{% endif%}
 
 						<!-- Presentation -->
 						{% if project.presentation %}
-							<a href="{{ project.presentation }}">presentation</a> /
+							<a href="{{ project.presentation }}">presentation</a> |
 						{% endif%}
 
 						<!-- Video -->
 						{% if project.video %}
-							<a href="{{ project.video }}">video</a> /
+							<a href="{{ project.video }}">video</a> |
 						{% endif%}
 
 
 						<!-- Code -->
 						{% if project.code %}
-							<a href="{{ project.code }}">code</a> /
+							<a href="{{ project.code }}">code</a> |
 						{% endif%}
 
 						<!-- software product -->

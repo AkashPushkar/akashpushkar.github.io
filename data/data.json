@@ -13,8 +13,8 @@
 		"presentation":"https://docs.google.com/presentation/d/e/2PACX-1vRkT1KgA9sA7_-aXCmQ-AFeMpnuBvD_FHk29MORurP-yXq_6wFfygYIbTha6S7scA/pub?start=true&loop=true&delayms=3000",
 		"video":"",
 		"code":"",
-		"filter":"research"
-		
+		"filter":"research",
+		"tags":"3D reconstruction, construction monitoring, lighting condition, data colection, python, PCL"
 	}, {
 		"src":"../../data/img/1.png",
 		"title":"Automated progress monitoring of masonry activity using photogrammetric point cloud",
@@ -30,8 +30,8 @@
 		"presentation":"https://drive.google.com/file/d/1rZLgFCLm8QuSJAeksJfZoA-G_uTz68IO/view?usp=sharing",
 		"video":"",
 		"code":"",
-		"filter":"research"
-		
+		"filter":"research",
+		"tags":"3D reconstruction, construction, python, PCL, stereo vision"		
 	}, {
 		"src":"../../data/img/2.png",
 		"title":"VBUILT: Volume-based Automatic Building Extraction for As-Built Point Clouds",
@@ -44,7 +44,9 @@
 		],
 		"projectPage":"",
 		"paper":"http://www.iaarc.org/publications/fulltext/ISARC_2019_Paper_235.pdf",
-		"filter":"research"
+		"filter":"research",
+		"tags":"3D processing, construction monitoring, MATLAB, convex hull"
+
 	}, {
 		"src":"../../data/img/deconstructionWasteManagement.png",
 		"title":"Supporting Deconstruction Waste Management through 3D Imaging: A Case Study",
