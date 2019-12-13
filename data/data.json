@@ -14,7 +14,7 @@
 		"video":"",
 		"code":"",
 		"filter":"research",
-		"tags":"3D reconstruction, construction monitoring, lighting condition, data colection, python, PCL"
+		"tags":"3D reconstruction, SVM, python, PCL"
 	}, {
 		"src":"../../data/img/1.png",
 		"title":"Automated progress monitoring of masonry activity using photogrammetric point cloud",
@@ -31,7 +31,7 @@
 		"video":"",
 		"code":"",
 		"filter":"research",
-		"tags":"3D reconstruction, construction, python, PCL, stereo vision"		
+		"tags":"3D reconstruction, stereo vision, python, PCL"		
 	}, {
 		"src":"../../data/img/2.png",
 		"title":"VBUILT: Volume-based Automatic Building Extraction for As-Built Point Clouds",
@@ -45,7 +45,7 @@
 		"projectPage":"",
 		"paper":"http://www.iaarc.org/publications/fulltext/ISARC_2019_Paper_235.pdf",
 		"filter":"research",
-		"tags":"3D processing, construction monitoring, MATLAB, convex hull"
+		"tags":"construction site, 3D point cloud processing, convex hull, MATLAB"
 
 	}, {
 		"src":"../../data/img/deconstructionWasteManagement.png",
@@ -57,7 +57,8 @@
 		],
 		"projectPage":"",
 		"paper":"https://pdfs.semanticscholar.org/97bb/5a108dcd8d40548e87b2bbafea398380bb0f.pdf",
-		"filter":"research"
+		"filter":"research",
+		"tags":"deconstruction, demolition, laser scanning"
 	}, {
 		"src":"../../data/img/storyboarding.png",
 		"title":"Storyboarding: Data driven feedback based sketching",
@@ -70,7 +71,8 @@
 		"presentation":"",
 		"video":"https://www.youtube.com/watch?v=dOUDKQjRguo&list=PLaAdNBxA08fpGp311fm_xk15P41TKPgFM&index=1",
 		"code":"https://github.com/AkashPushkar/assisted-storyboarding",
-		"filter":"webDevelopment"	
+		"filter":"webDevelopment",
+		"tags":"full stack development, django, vanilla javascipt, html5, css, canvas"
 	}, {
 		"src":"../../data/img/deconstruction.JPG",
 		"title":"Evaluating the economic effectiveness of deconstruction activities for a facility: A Case Study",
@@ -85,7 +87,8 @@
 		"presentation":"https://docs.google.com/presentation/d/e/2PACX-1vRQqLYpg77pGn1m9uDeBmIvuEofEhuDBgN3Tb2AAZtnr9P89hjiMwlUmzGmY98hEZ26P3j7vrs1-WuR/pub?start=true&loop=true&delayms=2000",
 		"video":"",
 		"code":"",
-		"filter":"research"
+		"filter":"research",
+		"tags":"deconstruction, demolition, cost-benefit analysis, building end-of-life "
 	},  {
 		"src":"../../data/img/audioSynthesis.png",
 		"title":"Audiocon: Audio Syntheis Webapp",
@@ -99,6 +102,7 @@
 		"video":"",
 		"code":"https://github.com/AkashPushkar/audio-synthesis-webapp",
 		"softwareProduct":"https://scs00197.sp.cs.cmu.edu/",
-		"filter":"webDevelopment"
+		"filter":"webDevelopment",
+		"tags":"full stack development, videojs, django, nginx"
 	}]
 }
